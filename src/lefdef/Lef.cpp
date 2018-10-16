@@ -7,6 +7,7 @@
  */
 
 #include "Lef.h"
+#include "StringUtil.h"
 
 #include <cassert>
 
@@ -334,7 +335,8 @@ int LefParser::set_macro (lefrCallbackType_e, lefiMacro* macro,
 int LefParser::set_pin (lefrCallbackType_e, lefiPin* pin, lefiUserData ud)
 {
     // Skip power and ground pins
-    if (string(pin->use()) != "SIGNAL" && string(pin->use()) != "signal") {
+    auto pin_use = StringUtil::to_lower(string(pin->use()));
+    if (pin_use == "power" or pin_use == "ground") {
         return 0;
     }
 

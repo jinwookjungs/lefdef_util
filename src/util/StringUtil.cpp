@@ -24,3 +24,27 @@ deque<string> StringUtil::tokenize (string str)
     return tokens;
 }
 
+
+/**
+ * Change the string to an uppercase string.
+ */
+string StringUtil::to_upper (string str)
+{
+    for (auto& c : str) {
+        c = toupper(c);
+    }
+
+    return str;
+}
+
+/**
+ * Change the string to a lowercase string.
+ */
+string StringUtil::to_lower (string str)
+{
+    for (auto& c : str) {
+        c = tolower(c);
+    }
+
+    return str;
+}

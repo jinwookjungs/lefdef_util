@@ -15,6 +15,8 @@ class StringUtil
 {
 public:
     static deque<string> tokenize (string);
+    static string to_upper (string);
+    static string to_lower (string);
 
 private:
     StringUtil () = default;
