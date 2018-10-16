@@ -1,1 +1,4 @@
-# lefdef_parser
+# A Lef/Def Parser
+
+# Author
+* Jinwook Jung
