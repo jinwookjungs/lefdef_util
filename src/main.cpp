@@ -15,6 +15,7 @@
 
 using namespace std;
 
+void show_usage ();
 void show_banner ();
 void show_cmd_args ();
 int omp_thread_count();
@@ -35,17 +36,13 @@ int main (int argc, char* argv[])
     auto filename_lef = ap.get_argument("-lef");
     auto filename_def = ap.get_argument("-def");
 
+    if (filename_lef == "" or filename_def == "") {
+        show_usage();
+        return -1;
+    }
+
     show_banner();
     show_cmd_args();
-
-    if (filename_lef == "") {
-        cout << "(E) No LEF file is specified." << endl;
-        return 1;
-    }
-    else if (filename_def == "") {
-        cout << "(E) No DEF file is specified." << endl;
-        return 1;
-    } 
 
     // Run detaile drouter
     auto& ldp = my_lefdef::LefDefParser::get_instance();
@@ -55,6 +52,13 @@ int main (int argc, char* argv[])
     cout << endl << "Done." << endl;
 
     return 0;
+}
+
+void show_usage ()
+{
+    cout << endl;
+    cout << "Usage:" << endl;
+    cout << "lefdef_parser -lef <lef> -def <def>" << endl << endl;
 }
 
 /**

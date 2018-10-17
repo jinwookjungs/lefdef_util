@@ -81,7 +81,6 @@ void Lef::read_lef (string filename)
     lefrSetMacroCbk      (LefParser::set_macro);
     lefrSetPinCbk        (LefParser::set_pin);
 
-
     // Read the LEF file.
     auto ret = lefrRead(fp.get(), filename.c_str(), (void*) this);
 
@@ -334,7 +333,7 @@ int LefParser::set_macro (lefrCallbackType_e, lefiMacro* macro,
 int LefParser::set_pin (lefrCallbackType_e, lefiPin* pin, lefiUserData ud)
 {
     // Skip power and ground pins
-    if (string(pin->use()) != "SIGNAL" && string(pin->use()) != "signal") {
+    if (string(pin->use()) == "POWER" && string(pin->use()) != "signal") {
         return 0;
     }
 
