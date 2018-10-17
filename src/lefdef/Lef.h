@@ -85,7 +85,6 @@ struct Site
 
 ostream& operator<< (ostream& os, const Site& s);
 
-
 /**
  * A class to represent a metal layer.
  */
@@ -156,6 +155,8 @@ struct Macro
     double size_x_;
     double size_y_;
 
+    SitePtr site_;
+
     unordered_map<string, PinPtr> pin_umap_;
 };
 
@@ -170,6 +171,7 @@ struct Pin
     MacroPtr owner_;
     string name_;
     PinDir dir_;
+    PinUse use_;
 
     Rect bbox_;     ///< Bounding box of the ports.
 

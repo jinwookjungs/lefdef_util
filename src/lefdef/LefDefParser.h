@@ -24,6 +24,9 @@ public:
     void read_lef (string filename);
     void read_def (string filename);
 
+    void write_bookshelf (string filename) const;
+    void write_bookshelf_nodes (string filename) const;
+
     static LefDefParser& get_instance ();
 
 private:

@@ -49,6 +49,8 @@ int main (int argc, char* argv[])
     ldp.read_lef(filename_lef);
     ldp.read_def(filename_def);
 
+    ldp.write_bookshelf("temp");
+
     cout << endl << "Done." << endl;
 
     return 0;

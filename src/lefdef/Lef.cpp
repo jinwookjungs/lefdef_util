@@ -36,6 +36,7 @@ struct Lef::Impl
     vector<PinPtr>   pins_;
 
     vector<MacroPtr> macros_;
+
     unordered_map<string, MacroPtr> macro_umap_;
     unordered_map<string, LayerPtr> layer_umap_;
 };
@@ -72,6 +73,11 @@ void Lef::read_lef (string filename)
     // Set the call-back functions.
 	lefrSetUnitsCbk (LefParser::set_units);
     lefrSetSiteCbk  (LefParser::set_site);
+
+    stable_sort(pimpl_->sites_.begin(), pimpl_->sites_.end(),
+                [](const SitePtr a, const SitePtr b)->bool {
+                    return a->name_ < b->name_;
+                });
 
     lefrSetLayerCbk (LefParser::set_layer);
     lefrSetViaCbk   (LefParser::set_via);
@@ -328,17 +334,26 @@ int LefParser::set_macro (lefrCallbackType_e, lefiMacro* macro,
     m->size_x_ = macro->sizeX();
     m->size_y_ = macro->sizeY();
 
+    auto dummy_site = make_shared<Site>();
+    dummy_site->name_ = m->site_name_;
+
+    auto& sites = lef->pimpl_->sites_;
+    auto range = equal_range(sites.begin(), sites.end(), dummy_site,
+                 [] (SitePtr s1, SitePtr s2) {
+                    return s1->name_ < s2->name_;
+                 });
+    if (range.first != sites.end()) {
+        m->site_ = *(range.first);
+    }
+    else {
+        m->site_ = nullptr;
+    }
+
     return 0;
 }
 
 int LefParser::set_pin (lefrCallbackType_e, lefiPin* pin, lefiUserData ud)
 {
-    // Skip power and ground pins
-    auto pin_use = StringUtil::to_lower(string(pin->use()));
-    if (pin_use == "power" or pin_use == "ground") {
-        return 0;
-    }
-
     // Create a new pin
     auto lef = static_cast<Lef*>(ud);
     auto& pins = lef->pimpl_->pins_;
@@ -354,6 +369,24 @@ int LefParser::set_pin (lefrCallbackType_e, lefiPin* pin, lefiUserData ud)
     }
     else if (dir_str == "OUTPUT" || dir_str == "output") {
         the_pin->dir_ = PinDir::output;
+    }
+
+    // Set pin use
+    auto pin_use = StringUtil::to_upper(string(pin->use()));
+    if (pin_use == "ANALOG") {
+        the_pin->use_ = PinUse::analog;
+    }
+    else if (pin_use == "CLOCK") {
+        the_pin->use_ = PinUse::clock;
+    }
+    else if (pin_use == "GROUND") {
+        the_pin->use_ = PinUse::ground;
+    }
+    else if (pin_use == "POWER") {
+        the_pin->use_ = PinUse::power;
+    }
+    else {
+        the_pin->use_ = PinUse::signal;
     }
 
     // Create ports
@@ -465,6 +498,7 @@ ostream& operator<< (ostream& os, const Macro& m)
     os << "Macro (name=" << m.name_
        << ", site_name=" << m.site_name_
        << ", size_x=" << m.size_x_ << ", size_y=" << m.size_y_
+       << ", num_pins=" << m.pin_umap_.size() 
        << ")";
 
     return os;
@@ -474,6 +508,7 @@ ostream& operator<< (ostream& os, const Pin& p)
 {
     os << "Pin (name=" << p.name_
        << ", dir=" << to_string(static_cast<long long>(p.dir_))
+       << ", use=" << to_string(static_cast<long long>(p.use_))
        << ", num_ports=" << p.ports_.size()
        << ", bbox=" << p.bbox_
        << ")";

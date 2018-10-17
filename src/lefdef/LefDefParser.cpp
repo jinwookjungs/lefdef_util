@@ -50,4 +50,36 @@ void LefDefParser::read_def (string filename)
     def_.report();
 }
 
+/**
+ *
+ */
+void LefDefParser::write_bookshelf (string filename) const
+{
+    write_bookshelf_nodes (filename + ".nodes");
+
+    // nets
+    // wts
+    // scl
+    // pl
+    // aux
+}
+
+/**
+ *
+ */
+void LefDefParser::write_bookshelf_nodes (string filename) const
+{
+    auto& component_umap = def_.get_component_umap();
+    for (auto& c : component_umap) {
+        cout << "Component: " << c.first;
+
+        // Get width and height
+        auto lef = c.second->lef_macro_;
+        auto site = lef->site_;
+        auto w = site->x_, h = site->y_;
+
+        cout << "\t" << w << "\t" << h << endl;
+    }
+}
+
 }

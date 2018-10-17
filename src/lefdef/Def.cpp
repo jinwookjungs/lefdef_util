@@ -51,9 +51,24 @@ Def& Def::get_instance ()
 }
 
 
-const vector<TrackPtr>& Def::get_tracks ()
+const vector<TrackPtr>& Def::get_tracks () const
 {
     return pimpl_->tracks_;
+}
+
+const ComponentUMap& Def::get_component_umap () const
+{
+    return pimpl_->component_umap_;
+}
+
+const NetUMap& Def::get_net_umap () const
+{
+    return pimpl_->net_umap_;
+}
+
+const PinUMap& Def::get_pin_umap () const
+{
+    return pimpl_->pin_umap_;
 }
 
 

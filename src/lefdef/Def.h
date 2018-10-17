@@ -18,7 +18,7 @@
 namespace def
 {
 
-/* Forward declaration. */
+// Forward declaration.
 struct Row;
 struct Track;
 struct Component;
@@ -30,6 +30,7 @@ struct Wire;
 struct Connection;
 struct Net;
 
+// Alias to basic data structures
 using RowPtr          = shared_ptr<Row>;
 using TrackPtr        = shared_ptr<Track>;
 using ComponentPtr    = shared_ptr<Component>;
@@ -38,8 +39,14 @@ using ViaPtr          = shared_ptr<Via>;
 using WirePtr         = shared_ptr<Wire>;
 using RoutingPointPtr = shared_ptr<RoutingPoint>;
 using WireSegmentPtr  = shared_ptr<WireSegment>;
-using ConnectionPtr      = shared_ptr<Connection>;
+using ConnectionPtr   = shared_ptr<Connection>;
 using NetPtr          = shared_ptr<Net>;
+
+// Some containers
+using TrackVec      = vector<TrackPtr>;
+using ComponentUMap = unordered_map<string, ComponentPtr>;
+using PinUMap       = unordered_map<string, PinPtr>;
+using NetUMap       = unordered_map<string, NetPtr>;
 
 ostream& operator<< (ostream& os, const Row&);
 ostream& operator<< (ostream& os, const Track&);
@@ -218,7 +225,11 @@ class Def
 public:
     static Def& get_instance ();
 
-    const vector<TrackPtr>& get_tracks ();
+    const TrackVec& get_tracks () const;
+    const ComponentUMap& get_component_umap () const;
+    const PinUMap& get_pin_umap () const;
+    const NetUMap& get_net_umap () const;
+
     NetPtr get_net (string name);
     ComponentPtr get_component (string name);
     PinPtr get_pin (string name);
@@ -243,7 +254,7 @@ private:
 
 
 /**
- * A set of call-back functions for def parser.
+ * A set of call-back functions for the si2 def parser.
  */
 class DefParser
 {
