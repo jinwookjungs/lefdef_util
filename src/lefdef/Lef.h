@@ -234,10 +234,10 @@ private:
 class LefParser
 {
 public:
-    static int set_units (lefrCallbackType_e, lefiUnits*, lefiUserData );
-    static int set_site  (lefrCallbackType_e, lefiSite*, lefiUserData);
-    static int set_layer (lefrCallbackType_e, lefiLayer*, lefiUserData);
-    static int set_via   (lefrCallbackType_e, lefiVia*, lefiUserData);
+    static int set_units       (lefrCallbackType_e, lefiUnits*, lefiUserData );
+    static int set_site        (lefrCallbackType_e, lefiSite*, lefiUserData);
+    static int set_layer       (lefrCallbackType_e, lefiLayer*, lefiUserData);
+    static int set_via         (lefrCallbackType_e, lefiVia*, lefiUserData);
     static int set_obstruction (lefrCallbackType_e, lefiObstruction*, lefiUserData);
 
     static int set_macro_begin (lefrCallbackType_e, const char*, lefiUserData);

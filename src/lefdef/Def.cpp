@@ -342,7 +342,14 @@ int DefParser::set_pin (defrCallbackType_e, defiPin* pin, defiUserData ud)
 
     the_pin->name_ = pin->pinName();
     the_pin->net_name_ = pin->netName();
-    the_pin->dir_ = pin->direction();
+
+    auto dir_str = string(pin->direction());
+    if (dir_str == "INPUT" || dir_str == "input") {
+        the_pin->dir_ = PinDir::input;
+    }
+    else if (dir_str == "OUTPUT" || dir_str == "output") {
+        the_pin->dir_ = PinDir::output;
+    }
 
     the_pin->x_ = pin->placementX();
     the_pin->y_ = pin->placementY();
@@ -532,7 +539,7 @@ ostream& operator<< (ostream& os, const Pin& p)
     os << "Pin (name=" << p.name_
        << ", net_name=" << p.net_name_
        << ", layer=" << p.layer_
-       << ", dir=" << p.dir_
+       << ", dir=" << static_cast<long long>(p.dir_)
        << ", x=" << p.x_ << ", y=" << p.y_
        << ", orient_str=" << p.orient_str_
        << ", orient=" << p.orient_

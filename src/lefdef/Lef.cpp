@@ -334,13 +334,12 @@ int LefParser::set_macro (lefrCallbackType_e, lefiMacro* macro,
     m->size_x_ = macro->sizeX();
     m->size_y_ = macro->sizeY();
 
-    auto dummy_site = make_shared<Site>();
-    dummy_site->name_ = m->site_name_;
-
     auto& sites = lef->pimpl_->sites_;
-    auto range = equal_range(sites.begin(), sites.end(), dummy_site,
-                 [] (SitePtr s1, SitePtr s2) {
-                    return s1->name_ < s2->name_;
+    auto range = equal_range(sites.begin(), sites.end(), nullptr,
+                 [m] (SitePtr s1, SitePtr s2) {
+                    auto lval = s1 ? s1->name_ : m->site_name_;
+                    auto rval = s2 ? s2->name_ : m->site_name_;
+                    return lval < rval;
                  });
     if (range.first != sites.end()) {
         m->site_ = *(range.first);

@@ -122,7 +122,7 @@ struct Pin
     string name_;
     string net_name_;
     string layer_;
-    string dir_;
+    PinDir dir_;
 
     uint32_t x_;
     uint32_t y_;
@@ -185,7 +185,6 @@ struct Connection
     string name_;
     ComponentPtr component_;
     lef::PinPtr lef_pin_;
-
     PinPtr pin_;
 
     uint32_t lx_;

@@ -26,6 +26,10 @@ public:
 
     void write_bookshelf (string filename) const;
     void write_bookshelf_nodes (string filename) const;
+    void write_bookshelf_nets (string filename) const;
+    void write_bookshelf_wts (string filename) const;
+    void write_bookshelf_scl (string filename) const;
+    void write_bookshelf_pl (string filename) const;
 
     static LefDefParser& get_instance ();
 
