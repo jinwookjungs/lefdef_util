@@ -1,7 +1,7 @@
 /**
  * @file    LefDefParser.cpp
  * @author  Jinwook Jung (jinwookjung@kaist.ac.kr)
- * @date    2018-10-16 12:31:28
+ * @date    2018-10-18 10:40:18
  *
  * Created on Tue Oct 16 12:31:28 2018.
  */
@@ -68,6 +68,7 @@ void LefDefParser::write_bookshelf (string filename) const
 
     // scl
     cout << "Writing bookshelf scl file." << endl;
+    write_bookshelf_scl (filename + ".scl");
 
     // pl
     cout << "Writing bookshelf pl file." << endl;
@@ -208,6 +209,52 @@ void LefDefParser::write_bookshelf_wts (string filename) const
     ofs.close();
 }
 
+/**
+ *
+ */
+void LefDefParser::write_bookshelf_scl (string filename) const
+{
+    ofstream ofs(filename);
+    ofs << "UCLA scl 1.0" << endl;
+    ofs << "# Created : ";
+    ofs << get_current_time_stamp() << endl << endl;
+
+    auto& rows = def_.get_rows();
+
+    // Minimum Y- and X-track pitch
+
+    for (auto& r : rows) {
+        auto site = lef_.get_site(r->macro_);
+        string sym_str;
+        if (site->symmetry_ == SiteSymmetry::x) {
+            sym_str = "X"; 
+        }
+        else if (site->symmetry_ == SiteSymmetry::y) {
+            sym_str = "Y"; 
+        }
+        else if (site->symmetry_ == SiteSymmetry::r90) {
+            sym_str = "R90"; 
+        }
+        else {
+            // FIXME
+            sym_str = "Y";
+        }
+
+        ofs << "CoreRow Horizontal" << endl;
+        ofs << "\tCoordinate   : " << r->y_ << endl;
+        ofs << "\tHeight       : " << site->y_ << endl;
+        ofs << "\tSitewidth    : " << r->num_x_ << endl;
+        ofs << "\tSitespacing  : " << r->step_x_ << endl;
+        ofs << "\tSiteorient   : " << r->orient_str_ << endl;
+        ofs << "\tSitesymmetry : " << sym_str << endl;
+
+        ofs << "\tSubrowOrigin : " << r->x_;
+        ofs << "\tNumSites : " << r->num_x_ << endl;
+        ofs << "End" << endl;
+    }
+
+    ofs.close();
+}
 
 
 }

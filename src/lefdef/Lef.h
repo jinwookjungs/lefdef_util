@@ -77,10 +77,11 @@ ostream& operator<< (ostream& os, const Unit& u);
  */
 struct Site
 {
-    string name_;      ///< Name of the site.
-    string class_;     ///< Class of the site. 
-    double x_;              ///< Width.
-    double y_;              ///< Height.
+    string name_;       ///< Name of the site.
+    string class_;      ///< Class of the site. 
+    double x_;          ///< Width.
+    double y_;          ///< Height.
+    SiteSymmetry symmetry_;   ///< Symmetry of the site.
 };
 
 ostream& operator<< (ostream& os, const Site& s);
@@ -210,8 +211,15 @@ public:
     void report () const;
     void report_verbose () const;
 
+    SitePtr get_site (string name);
     LayerPtr get_layer (string name);
     MacroPtr get_macro (string name);
+
+    uint32_t get_dbu () const;
+    double get_min_hori_pitch () const;
+    double get_min_vert_pitch () const;
+    uint32_t get_min_hori_pitch_dbu () const;
+    uint32_t get_min_vert_pitch_dbu () const;
 
 private:
     struct Impl;

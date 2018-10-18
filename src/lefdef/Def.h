@@ -43,6 +43,7 @@ using ConnectionPtr   = shared_ptr<Connection>;
 using NetPtr          = shared_ptr<Net>;
 
 // Some containers
+using RowVec        = vector<RowPtr>;
 using TrackVec      = vector<TrackPtr>;
 using ComponentUMap = unordered_map<string, ComponentPtr>;
 using PinUMap       = unordered_map<string, PinPtr>;
@@ -65,7 +66,7 @@ ostream& operator<< (ostream& os, const Net&);
 struct Row
 {
     string name_;
-    string macro_;     ///< ??
+    string macro_;     ///< Site name
 
     string orient_str_;    
     int orient_;
@@ -224,6 +225,7 @@ class Def
 public:
     static Def& get_instance ();
 
+    const RowVec& get_rows () const;
     const TrackVec& get_tracks () const;
     const ComponentUMap& get_component_umap () const;
     const PinUMap& get_pin_umap () const;

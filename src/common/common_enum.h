@@ -11,6 +11,7 @@
 
 enum class PinDir   { na, input, output, inout };
 enum class PinUse   { na, analog, clock, ground, power, signal };
+enum class SiteSymmetry { na, x, y, r90 };
 enum class LayerDir { na, horizontal, vertical };
 enum class TrackDir { na, x, y };
 

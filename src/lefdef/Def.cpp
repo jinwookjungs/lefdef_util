@@ -50,6 +50,10 @@ Def& Def::get_instance ()
     return def;
 }
 
+const vector<RowPtr>& Def::get_rows () const
+{
+    return pimpl_->rows_;
+}
 
 const vector<TrackPtr>& Def::get_tracks () const
 {
@@ -259,6 +263,10 @@ int DefParser::set_track (defrCallbackType_e, defiTrack* track, defiUserData ud)
     return 0;
 }
 
+//
+// [ROW rowName siteName origX origY siteOrient
+//      [DO numX BY numY [STEP stepX stepY]]
+//      [+ PROPERTY {propName propVal} ...] ... ;] ...
 int DefParser::set_row (defrCallbackType_e, defiRow* row, defiUserData ud)
 {
     auto def = static_cast<Def*>(ud); 

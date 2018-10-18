@@ -128,6 +128,24 @@ void Lef::report_verbose () const
     }
 }
 
+SitePtr Lef::get_site (string name)
+{
+    auto& sites = pimpl_->sites_;
+    auto range = equal_range(sites.begin(), sites.end(), nullptr,
+                 [name] (SitePtr s1, SitePtr s2) {
+                    auto lval = s1 ? s1->name_ : name;
+                    auto rval = s2 ? s2->name_ : name;
+                    return lval < rval;
+                 });
+
+    if (range.first != sites.end()) {
+        return *(range.first);
+    }
+    else {
+        return nullptr;
+    }
+}
+
 LayerPtr Lef::get_layer (string name)
 {
     auto found = pimpl_->layer_umap_.find(name);
@@ -168,9 +186,15 @@ int LefParser::set_units (lefrCallbackType_e, lefiUnits* units,
     return 0;
 }
 
-int LefParser::set_site  (lefrCallbackType_e, lefiSite* site, 
+int LefParser::set_site  (lefrCallbackType_e type, lefiSite* site, 
                           lefiUserData ud)
 {
+    // Check if the type is correct
+    if (type != lefrSiteCbkType) {
+        cout << "Type is not lefrSiteCbkType, terminate parsing." << endl;
+        return 1;
+    }
+
     auto lef = static_cast<Lef*>(ud);
 
     // Create a new site.
@@ -182,8 +206,24 @@ int LefParser::set_site  (lefrCallbackType_e, lefiSite* site,
     // Set the attributes.
     cur_site->name_  = site->name();
     cur_site->class_ = site->hasClass() ? site->siteClass() : "";
-    cur_site->x_ = site->sizeX();
-    cur_site->y_ = site->sizeY();
+    if (site->hasSize()) {
+        cur_site->x_ = site->sizeX();
+        cur_site->y_ = site->sizeY();
+    }
+
+    // Symmetries
+    if (site->hasXSymmetry()) {
+        cur_site->symmetry_ = SiteSymmetry::x;
+    }
+    else if (site->hasYSymmetry()) {
+        cur_site->symmetry_ = SiteSymmetry::y;
+    }
+    else if (site->has90Symmetry()) {
+        cur_site->symmetry_ = SiteSymmetry::r90;
+    }
+    else {
+        cur_site->symmetry_ = SiteSymmetry::na;
+    }
 
     return 0;
 }
