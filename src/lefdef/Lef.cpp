@@ -39,6 +39,11 @@ struct Lef::Impl
 
     unordered_map<string, MacroPtr> macro_umap_;
     unordered_map<string, LayerPtr> layer_umap_;
+
+    double min_x_pitch_ = 987654321.0;
+    double min_y_pitch_ = 987654321.0;
+    uint32_t min_x_pitch_dbu_ = 987654321;
+    uint32_t min_y_pitch_dbu_ = 987654321;
 };
 
 /* Constructors and destructor. */
@@ -94,6 +99,22 @@ void Lef::read_lef (string filename)
     if (ret != 0) {
         throw logic_error("(E) An error occured in LEF parser.");
     }
+
+    // Set the minimum horizontal/vertical metal pitches
+    for (auto l : pimpl_->layers_) {
+        if (l->dir_ == LayerDir::horizontal) {
+            pimpl_->min_y_pitch_ = (l->pitch_y_ < pimpl_->min_y_pitch_) 
+                                       ? l->pitch_y_ : pimpl_->min_y_pitch_;
+        }
+        else if (l->dir_ == LayerDir::vertical) {
+            pimpl_->min_x_pitch_ = (l->pitch_x_ < pimpl_->min_x_pitch_) 
+                                      ? l->pitch_x_ : pimpl_->min_x_pitch_;
+        }
+    }
+
+    const auto DBU = pimpl_->unit_.db_number_;
+    pimpl_->min_x_pitch_dbu_ = pimpl_->min_x_pitch_ * DBU;
+    pimpl_->min_y_pitch_dbu_ = pimpl_->min_y_pitch_ * DBU;
 
     lefrReleaseNResetMemory();
 }
@@ -168,6 +189,31 @@ MacroPtr Lef::get_macro (string name)
     else {
         return found->second;
     }
+}
+
+uint32_t Lef::get_dbu () const
+{
+    return pimpl_->unit_.db_number_;
+}
+
+double Lef::get_min_x_pitch () const
+{
+    return pimpl_->min_x_pitch_;
+}
+
+double Lef::get_min_y_pitch () const
+{
+    return pimpl_->min_y_pitch_;
+}
+
+uint32_t Lef::get_min_x_pitch_dbu () const
+{
+    return pimpl_->min_x_pitch_dbu_;
+}
+
+uint32_t Lef::get_min_y_pitch_dbu () const
+{
+    return pimpl_->min_y_pitch_dbu_;
 }
 
 

@@ -66,7 +66,7 @@ ostream& operator<< (ostream& os, const Rect& r);
 struct Unit
 {
     string db_name_;       ///< databaseName of lefiUnits
-    double db_number_;          ///< databaseNumber of lefiUnits
+    int db_number_;     ///< databaseNumber of lefiUnits
 };
 
 ostream& operator<< (ostream& os, const Unit& u);
@@ -216,10 +216,10 @@ public:
     MacroPtr get_macro (string name);
 
     uint32_t get_dbu () const;
-    double get_min_hori_pitch () const;
-    double get_min_vert_pitch () const;
-    uint32_t get_min_hori_pitch_dbu () const;
-    uint32_t get_min_vert_pitch_dbu () const;
+    double get_min_x_pitch () const;
+    double get_min_y_pitch () const;
+    uint32_t get_min_x_pitch_dbu () const;
+    uint32_t get_min_y_pitch_dbu () const;
 
 private:
     struct Impl;

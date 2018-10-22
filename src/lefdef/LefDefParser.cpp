@@ -72,6 +72,7 @@ void LefDefParser::write_bookshelf (string filename) const
 
     // pl
     cout << "Writing bookshelf pl file." << endl;
+    write_bookshelf_pl (filename + ".pl");
 
     // aux
     cout << "Writing bookshelf aux file." << endl;
@@ -222,6 +223,12 @@ void LefDefParser::write_bookshelf_scl (string filename) const
     auto& rows = def_.get_rows();
 
     // Minimum Y- and X-track pitch
+    auto x_pitch = lef_.get_min_x_pitch();
+    auto y_pitch = lef_.get_min_y_pitch();
+    auto x_pitch_dbu = lef_.get_min_x_pitch_dbu();
+    auto y_pitch_dbu = lef_.get_min_y_pitch_dbu();
+
+    ofs << "NumRows : " << rows.size() << endl << endl;
 
     for (auto& r : rows) {
         auto site = lef_.get_site(r->macro_);
@@ -241,14 +248,14 @@ void LefDefParser::write_bookshelf_scl (string filename) const
         }
 
         ofs << "CoreRow Horizontal" << endl;
-        ofs << "\tCoordinate   : " << r->y_ << endl;
-        ofs << "\tHeight       : " << site->y_ << endl;
-        ofs << "\tSitewidth    : " << r->num_x_ << endl;
-        ofs << "\tSitespacing  : " << r->step_x_ << endl;
+        ofs << "\tCoordinate   : " << r->y_ / y_pitch_dbu << endl;
+        ofs << "\tHeight       : " << site->y_ / y_pitch << endl;
+        ofs << "\tSitewidth    : " << site->x_ / x_pitch << endl;
+        ofs << "\tSitespacing  : " << r->step_x_ / x_pitch_dbu << endl;
         ofs << "\tSiteorient   : " << r->orient_str_ << endl;
         ofs << "\tSitesymmetry : " << sym_str << endl;
 
-        ofs << "\tSubrowOrigin : " << r->x_;
+        ofs << "\tSubrowOrigin : " << r->x_ / x_pitch_dbu;
         ofs << "\tNumSites : " << r->num_x_ << endl;
         ofs << "End" << endl;
     }
@@ -256,5 +263,41 @@ void LefDefParser::write_bookshelf_scl (string filename) const
     ofs.close();
 }
 
+/**
+ *
+ */
+void LefDefParser::write_bookshelf_pl (string filename) const
+{
+    ofstream ofs(filename);
+    ofs << "UCLA pl 1.0" << endl;
+    ofs << "# Created : ";
+    ofs << get_current_time_stamp() << endl << endl;
+
+    auto& component_umap = def_.get_component_umap();
+    auto& pin_umap = def_.get_pin_umap();
+
+    auto x_pitch_dbu = lef_.get_min_x_pitch_dbu();
+    auto y_pitch_dbu = lef_.get_min_y_pitch_dbu();
+
+    for (auto it : component_umap) {
+        auto c = it.second;
+        ofs << std::setw(40) << std::left << c->name_;
+        ofs << "\t" << c->x_ / x_pitch_dbu 
+               << "\t" << c->y_ / y_pitch_dbu 
+               << "\t" << c->orient_str_ << endl;
+    }
+
+    for (auto& it : pin_umap) {
+        auto p = it.second;
+        ofs << std::setw(40) << std::left  << p->name_;
+        ofs << "\t" << p->x_ / x_pitch_dbu
+            << "\t" << p->y_ / y_pitch_dbu 
+            << "\t" << p->orient_str_ << endl;
+    }
+
+
+
+    ofs.close();
+}
 
 }

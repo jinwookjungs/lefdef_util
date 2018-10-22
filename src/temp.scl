@@ -1,3450 +1,3452 @@
 UCLA scl 1.0
-# Created : 10/18/2018 13:50:39
+# Created : 10/22/2018 17:12:35
+
+NumRows : 383
 
 CoreRow Horizontal
-	Coordinate   : 50160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 132
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 53580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 141
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 57000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 150
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 60420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 159
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 63840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 168
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 67260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 177
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 70680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 186
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 74100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 195
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 77520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 204
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 80940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 213
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 84360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 222
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 87780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 231
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 91200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 240
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 94620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 249
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 98040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 258
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 101460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 267
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 104880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 276
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 108300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 285
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 111720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 294
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 115140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 303
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 118560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 312
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 121980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 321
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 125400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 330
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 128820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 339
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 132240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 348
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 135660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 357
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 139080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 366
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 142500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 375
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 145920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 384
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 149340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 393
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 152760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 402
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 156180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 411
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 159600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 420
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 163020
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 429
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 166440
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 438
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 169860
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 447
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 173280
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 456
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 176700
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 465
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 180120
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 474
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 183540
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 483
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 186960
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 492
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 190380
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 501
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 193800
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 510
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 197220
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 519
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 200640
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 528
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 204060
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 537
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 207480
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 546
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 210900
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 555
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 214320
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 564
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 217740
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 573
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 221160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 582
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 224580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 591
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 228000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 600
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 231420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 609
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 234840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 618
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 238260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 627
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 241680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 636
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 245100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 645
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 248520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 654
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 251940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 663
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 255360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 672
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 258780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 681
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 262200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 690
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 265620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 699
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 269040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 708
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 272460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 717
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 275880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 726
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 279300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 735
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 282720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 744
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 286140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 753
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 289560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 762
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 292980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 771
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 296400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 780
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 299820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 789
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 303240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 798
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 306660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 807
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 310080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 816
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 313500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 825
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 316920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 834
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 320340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 843
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 323760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 852
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 327180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 861
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 330600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 870
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 334020
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 879
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 337440
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 888
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 340860
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 897
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 344280
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 906
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 347700
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 915
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 351120
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 924
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 354540
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 933
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 357960
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 942
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 361380
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 951
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 364800
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 960
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 368220
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 969
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 371640
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 978
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 375060
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 987
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 378480
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 996
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 381900
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1005
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 385320
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1014
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 388740
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1023
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 392160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1032
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 395580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1041
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 399000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1050
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 402420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1059
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 405840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1068
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 409260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1077
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 412680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1086
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 416100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1095
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 419520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1104
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 422940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1113
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 426360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1122
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 429780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1131
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 433200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1140
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 436620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1149
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 440040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1158
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 443460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1167
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 446880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1176
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 450300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1185
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 453720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1194
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 457140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1203
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 460560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1212
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 463980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1221
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 467400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1230
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 470820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1239
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 474240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1248
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 477660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1257
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 481080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1266
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 484500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1275
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 487920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1284
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 491340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1293
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 494760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1302
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 498180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1311
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 501600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1320
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 505020
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1329
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 508440
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1338
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 511860
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1347
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 515280
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1356
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 518700
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1365
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 522120
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1374
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 525540
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1383
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 528960
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1392
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 532380
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1401
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 535800
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1410
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 539220
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1419
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 542640
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1428
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 546060
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1437
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 549480
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1446
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 552900
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1455
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 556320
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1464
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 559740
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1473
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 563160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1482
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 566580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1491
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 570000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1500
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 573420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1509
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 576840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1518
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 580260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1527
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 583680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1536
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 587100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1545
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 590520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1554
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 593940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1563
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 597360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1572
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 600780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1581
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 604200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1590
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 607620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1599
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 611040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1608
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 614460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1617
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 617880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1626
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 621300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1635
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 624720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1644
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 628140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1653
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 631560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1662
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 634980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1671
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 638400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1680
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 641820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1689
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 645240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1698
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 648660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1707
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 652080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1716
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 655500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1725
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 658920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1734
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 662340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1743
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 665760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1752
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 669180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1761
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 672600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1770
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 676020
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1779
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 679440
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1788
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 682860
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1797
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 686280
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1806
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 689700
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1815
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 693120
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1824
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 696540
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1833
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 699960
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1842
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 703380
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1851
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 706800
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1860
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 710220
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1869
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 713640
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1878
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 717060
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1887
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 720480
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1896
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 723900
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1905
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 727320
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1914
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 730740
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1923
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 734160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1932
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 737580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1941
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 741000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1950
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 744420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1959
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 747840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1968
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 751260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1977
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 754680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1986
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 758100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 1995
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 761520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2004
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 764940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2013
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 768360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2022
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 771780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2031
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 775200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2040
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 778620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2049
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 782040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2058
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 785460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2067
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 788880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2076
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 792300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2085
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 795720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2094
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 799140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2103
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 802560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2112
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 805980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2121
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 809400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2130
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 812820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2139
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 816240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2148
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 819660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2157
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 823080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2166
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 826500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2175
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 829920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2184
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 833340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2193
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 836760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2202
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 840180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2211
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 843600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2220
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 847020
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2229
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 850440
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2238
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 853860
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2247
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 857280
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2256
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 860700
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2265
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 864120
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2274
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 867540
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2283
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 870960
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2292
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 874380
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2301
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 877800
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2310
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 881220
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2319
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 884640
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2328
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 888060
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2337
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 891480
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2346
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 894900
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2355
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 898320
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2364
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 901740
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2373
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 905160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2382
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 908580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2391
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 912000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2400
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 915420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2409
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 918840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2418
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 922260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2427
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 925680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2436
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 929100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2445
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 932520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2454
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 935940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2463
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 939360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2472
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 942780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2481
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 946200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2490
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 949620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2499
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 953040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2508
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 956460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2517
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 959880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2526
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 963300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2535
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 966720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2544
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 970140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2553
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 973560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2562
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 976980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2571
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 980400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2580
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 983820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2589
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 987240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2598
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 990660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2607
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 994080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2616
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 997500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2625
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1000920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2634
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1004340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2643
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1007760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2652
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1011180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2661
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1014600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2670
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1018020
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2679
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1021440
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2688
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1024860
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2697
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1028280
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2706
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1031700
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2715
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1035120
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2724
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1038540
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2733
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1041960
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2742
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1045380
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2751
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1048800
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2760
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1052220
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2769
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1055640
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2778
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1059060
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2787
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1062480
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2796
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1065900
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2805
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1069320
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2814
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1072740
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2823
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1076160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2832
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1079580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2841
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1083000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2850
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1086420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2859
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1089840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2868
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1093260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2877
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1096680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2886
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1100100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2895
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1103520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2904
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1106940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2913
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1110360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2922
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1113780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2931
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1117200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2940
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1120620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2949
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1124040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2958
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1127460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2967
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1130880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2976
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1134300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2985
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1137720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 2994
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1141140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3003
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1144560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3012
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1147980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3021
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1151400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3030
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1154820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3039
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1158240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3048
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1161660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3057
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1165080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3066
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1168500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3075
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1171920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3084
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1175340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3093
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1178760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3102
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1182180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3111
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1185600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3120
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1189020
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3129
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1192440
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3138
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1195860
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3147
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1199280
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3156
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1202700
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3165
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1206120
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3174
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1209540
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3183
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1212960
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3192
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1216380
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3201
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1219800
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3210
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1223220
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3219
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1226640
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3228
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1230060
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3237
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1233480
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3246
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1236900
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3255
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1240320
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3264
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1243740
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3273
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1247160
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3282
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1250580
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3291
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1254000
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3300
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1257420
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3309
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1260840
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3318
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1264260
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3327
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1267680
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3336
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1271100
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3345
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1274520
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3354
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1277940
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3363
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1281360
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3372
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1284780
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3381
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1288200
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3390
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1291620
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3399
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1295040
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3408
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1298460
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3417
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1301880
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3426
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1305300
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3435
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1308720
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3444
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1312140
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3453
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1315560
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3462
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1318980
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3471
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1322400
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3480
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1325820
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3489
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1329240
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3498
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1332660
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3507
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1336080
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3516
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1339500
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3525
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1342920
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3534
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1346340
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3543
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1349760
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3552
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1353180
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3561
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : N
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
 CoreRow Horizontal
-	Coordinate   : 1356600
-	Height       : 1.71
-	Sitewidth    : 4692
-	Sitespacing  : 2000
+	Coordinate   : 3570
+	Height       : 9
+	Sitewidth    : 1
+	Sitespacing  : 1
 	Siteorient   : FS
 	Sitesymmetry : Y
-	SubrowOrigin : 50000	NumSites : 4692
+	SubrowOrigin : 125	NumSites : 4692
 End
