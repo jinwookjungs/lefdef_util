@@ -1,7 +1,7 @@
 UCLA nodes 1.0
-# Created : 10/22/2018 17:57:06
+# Created : 10/24/2018 16:58:03
 NumNodes : 37188
-NumTerminals : 1211
+NumTerminals : 1215
 	iopin10                                 	       1	       1	terminal
 	iopin1000                               	       1	       1	terminal
 	iopin1001                               	       1	       1	terminal
@@ -37183,10 +37183,10 @@ NumTerminals : 1211
 	inst35976                               	      10	       9
 	inst2558                                	       9	       9
 	inst35977                               	      13	       9
-	inst1                                   	    2135	     601
-	inst2                                   	    2115	     763
+	inst1                                   	    2135	     601	terminal
+	inst2                                   	    2115	     763	terminal
 	inst30951                               	      10	       9
-	inst3                                   	    2135	     601
+	inst3                                   	    2135	     601	terminal
 	inst5081                                	      24	       9
 	inst33745                               	      10	       9
-	inst4                                   	    2115	     763
+	inst4                                   	    2115	     763	terminal

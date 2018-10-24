@@ -108,17 +108,24 @@ void LefDefParser::write_bookshelf_nodes (string filename) const
     const auto x_pitch = lef_.get_min_x_pitch();
     const auto y_pitch = lef_.get_min_y_pitch();
 
-    ofs << "NumNodes : " << component_umap.size() + pin_umap.size() << endl;
-    ofs << "NumTerminals : " << pin_umap.size() << endl;
+    auto num_terminals = pin_umap.size();
+    for (auto c : component_umap) {
+        if (c.second->is_fixed_) {
+            num_terminals++;
+        }
+    }
 
-    for (auto& p : pin_umap) {
+    ofs << "NumNodes : " << component_umap.size() + pin_umap.size() << endl;
+    ofs << "NumTerminals : " << num_terminals << endl;
+
+    for (auto p : pin_umap) {
         ofs << "\t" << std::setw(40) << std::left  << p.first;
         ofs << "\t" << std::setw(8)  << std::right << 1;
         ofs << "\t" << std::setw(8)  << std::right << 1;
         ofs << "\t" << "terminal" << endl;
     }
 
-    for (auto& c : component_umap) {
+    for (auto c : component_umap) {
         ofs << "\t" << std::setw(40) << std::left << c.first;
 
         // Get width and height
@@ -128,7 +135,12 @@ void LefDefParser::write_bookshelf_nodes (string filename) const
         auto h = lround(macro->size_y_ / y_pitch);
 
         ofs << "\t" << std::setw(8) << std::right << w;
-        ofs << "\t" << std::setw(8) << std::right << h << endl;
+        ofs << "\t" << std::setw(8) << std::right << h;
+        
+        if (c.second->is_fixed_) {
+            ofs << "\t" << "terminal";
+        }
+        ofs << endl;
     }
     ofs.close();
 }
@@ -299,8 +311,6 @@ void LefDefParser::write_bookshelf_pl (string filename) const
             << "\t: " << p->orient_str_ << endl;
     }
 
-
-
     ofs.close();
 }
 
@@ -309,8 +319,59 @@ void LefDefParser::write_bookshelf_pl (string filename) const
  */
 void LefDefParser::update_def (string bookshelf_pl)
 {
-    // Read bookshelf placement file.
+    unordered_map<string, pair<int, int>> pl_umap;
 
+    // Read bookshelf placement file.
+    cout << "Reading bookshelf pl file..." << endl;
+    ifstream ifs(bookshelf_pl);
+    if (!ifs.is_open()) {
+        throw invalid_argument("Cannot open " + bookshelf_pl);
+    }
+
+    string line;
+    getline(ifs, line);
+
+    // FIXME
+    assert(line == "UCLA pl 1.0");
+
+    while (getline(ifs, line)) {
+        if (line == "" or line[0] == '#') {
+            continue;
+        }
+        istringstream iss(line);
+        
+        string t1, t2, t3;
+        iss >> t1 >> t2 >> t3;
+        pl_umap[t1] = make_pair(stoi(t2), stoi(t3));
+    }
+
+    cout << "Updating DEF file..." << endl;
+    auto& component_umap = def_.get_component_umap();
+    auto x_pitch_dbu = lef_.get_min_x_pitch_dbu();
+    auto y_pitch_dbu = lef_.get_min_y_pitch_dbu();
+
+    for (auto it : component_umap) {
+        auto found = pl_umap.find(it.first);
+        if (found == pl_umap.end()) {
+            cout << "Error: " << it.first << " not found in .pl." << endl;
+        }
+        if (!it.second->is_fixed_) {
+            auto x_orig = it.second->x_;
+            auto y_orig = it.second->y_;
+            auto x_new = found->second.first * x_pitch_dbu;
+            auto y_new = found->second.second * y_pitch_dbu;
+//            cout << it.first << " : (" << x_orig << ", " << y_orig << ")"
+//                             << " -> (" << x_new << ", " << y_new << ")" << endl;
+            it.second->x_ = x_new; 
+            it.second->y_ = y_new; 
+        }
+    }
+}
+
+
+def::Def& LefDefParser::get_def ()
+{
+    return def_;
 }
 
 }

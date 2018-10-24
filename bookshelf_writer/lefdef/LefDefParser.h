@@ -35,6 +35,9 @@ public:
 
     static LefDefParser& get_instance ();
 
+    // Following functions will be removed soon
+    def::Def& get_def ();
+
 private:
     lef::Lef&    lef_;
     def::Def&    def_;

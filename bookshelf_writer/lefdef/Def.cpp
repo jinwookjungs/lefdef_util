@@ -621,5 +621,22 @@ ostream& operator<< (ostream& os, const Net& n)
     return os;
 }
 
+uint32_t Def::get_die_lx () const
+{
+    return pimpl_->die_lx_;
+}
+uint32_t Def::get_die_ly () const
+{
+    return pimpl_->die_ly_;
+}
+uint32_t Def::get_die_ux () const
+{
+    return pimpl_->die_ux_;
+}
+uint32_t Def::get_die_uy () const
+{
+    return pimpl_->die_uy_;
+}
+
 
 }       // End of namespace lefdef

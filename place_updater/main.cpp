@@ -10,6 +10,7 @@
 #include "Watch.h"
 #include "ArgParser.h"
 #include "LefDefParser.h"
+#include "DefWriter.h"
 
 #include <iostream>
 
@@ -49,6 +50,9 @@ int main (int argc, char* argv[])
     ldp.read_lef(filename_lef);
     ldp.read_def(filename_def);
     ldp.update_def(filename_pl);
+
+    auto& dw = my_lefdef::DefWriter::get_instance();
+    dw.write_def(ldp.get_def());
 
     cout << endl << "Done." << endl;
 

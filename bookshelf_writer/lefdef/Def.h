@@ -239,6 +239,11 @@ public:
     void report () const;
     void report_verbose () const;
 
+    uint32_t get_die_lx () const;
+    uint32_t get_die_ly () const;
+    uint32_t get_die_ux () const;
+    uint32_t get_die_uy () const;
+
 private:
     struct Impl;
     unique_ptr<Impl> pimpl_;   ///< Pointer to the implementation.
