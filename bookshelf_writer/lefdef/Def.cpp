@@ -50,6 +50,16 @@ Def& Def::get_instance ()
     return def;
 }
 
+string Def::get_design_name () const
+{
+    return pimpl_->design_name_;
+}
+
+int Def::get_dbu () const
+{
+    return pimpl_->dbu_;
+}
+
 const vector<RowPtr>& Def::get_rows () const
 {
     return pimpl_->rows_;
@@ -133,6 +143,7 @@ void Def::read_def (string filename)
 
     defrInit();
 
+    defrSetDesignCbk(DefParser::set_design_name);
     defrSetUnitsCbk(DefParser::set_units);
     defrSetDieAreaCbk(DefParser::set_die_area);
 

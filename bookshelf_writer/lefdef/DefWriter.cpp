@@ -140,7 +140,7 @@ static void write_nets (def::Def* def)
 {
     auto& net_umap = def->get_net_umap();
 
-    auto status =defwStartNets(net_umap.size());
+    auto status = defwStartNets(net_umap.size());
     CHECK_STATUS(status);
 
     for (auto it : net_umap) {
@@ -159,6 +159,9 @@ static void write_nets (def::Def* def)
             }
             CHECK_STATUS(status);
         }
+
+        status = defwNetEndOneNet();
+        CHECK_STATUS(status);
     }
 
     status = defwEndNets();
@@ -180,30 +183,20 @@ void DefWriter::write_def (def::Def& def)
     CHECK_STATUS(status);
     status = defwVersion (5, 8);
     CHECK_STATUS(status);
-    status = defwDividerChar(":");
+    status = defwDividerChar("/");
     CHECK_STATUS(status);
     status = defwBusBitChars("[]");
     CHECK_STATUS(status);
-    status = defwDesignName("muk");
+    status = defwDesignName(def_->get_design_name().c_str());
     CHECK_STATUS(status);
-    status = defwTechnology("muk");
-    CHECK_STATUS(status);
-    status = defwArray("core_array");
-    CHECK_STATUS(status);
-    status = defwFloorplan("DEFAULT");
-    CHECK_STATUS(status);
-    status = defwUnits(100);
+    status = defwUnits(def_->get_dbu());
     CHECK_STATUS(status);
 
     status = defwNewLine();
     CHECK_STATUS(status);
 
     // history
-    status = defwHistory("Corrected STEP for ROW_9 and added ROW_10 of SITE CORE1 (def)");
-    CHECK_STATUS(status);
-    status = defwHistory("Removed NONDEFAULTRULE from the net XX100 (def)");
-    CHECK_STATUS(status);
-    status = defwHistory("Changed some cell orientations (def)");
+    status = defwHistory("Placed with ComPLx.");
     CHECK_STATUS(status);
     status = defwNewLine();
     CHECK_STATUS(status);

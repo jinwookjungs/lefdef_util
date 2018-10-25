@@ -225,6 +225,9 @@ class Def
 public:
     static Def& get_instance ();
 
+    string get_design_name () const;
+    int get_dbu () const;
+
     const RowVec& get_rows () const;
     const TrackVec& get_tracks () const;
     const ComponentUMap& get_component_umap () const;
