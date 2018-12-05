@@ -123,12 +123,10 @@ struct Via
     struct Layer {
         string name_;
         LayerPtr layer_ptr_;
-        Rect rect_;
+        vector<Rect> rect_vec_;
 
-        Layer (string name, LayerPtr layer_ptr, 
-               double lx, double ly, double ux, double uy)
-            : name_(name), layer_ptr_(layer_ptr),
-              rect_(lx, ly, ux, uy) {}
+        Layer (string name, LayerPtr layer_ptr)
+            : name_(name), layer_ptr_(layer_ptr), rect_vec_() {}
     };
 
     vector<Layer> layers_;

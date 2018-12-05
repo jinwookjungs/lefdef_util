@@ -357,16 +357,17 @@ int LefParser::set_via (lefrCallbackType_e, lefiVia* via, lefiUserData ud)
     the_via->layers_.reserve(via->numLayers());
 
     for (int i = 0; i < via->numLayers(); i++) {
-        // Number of rectangles of a via must be 1.
-        assert(via->numRects(i) == 1);
-
         auto layer_name = via->layerName(i);
         auto layer = lef->pimpl_->layer_umap_[layer_name];
 
-        the_via->layers_.emplace_back(
-                layer_name, layer,
-                via->xl(i,0), via->yl(i,0),
-                via->xh(i,0), via->yh(i,0));
+        the_via->layers_.emplace_back(layer_name, layer);
+
+        for (int j = 0; j < via->numRects(i); j++) {
+            auto& the_via_layer = the_via->layers_.back();
+            the_via_layer.rect_vec_.emplace_back(
+                via->xl(i,j), via->yl(i,j),
+                via->xh(i,j), via->yh(i,j));
+        }
     }
 
     return 0;
