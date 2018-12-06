@@ -111,5 +111,5 @@ obj/LefDefParser.o: lefdef/LefDefParser.cpp lefdef/LefDefParser.h \
  util/Logger.h
 obj/StringUtil.o: util/StringUtil.cpp util/StringUtil.h \
  common/common_header.h
-obj/Watch.o: util/Watch.cpp util/Watch.h
 obj/util.o: util/util.cpp common/common_header.h util/util.h
+obj/Watch.o: util/Watch.cpp util/Watch.h

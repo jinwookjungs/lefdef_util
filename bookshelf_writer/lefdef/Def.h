@@ -21,6 +21,7 @@ namespace def
 // Forward declaration.
 struct Row;
 struct Track;
+struct GCellGrid;
 struct Component;
 struct Pin;
 struct Via;
@@ -29,10 +30,12 @@ struct WireSegment;
 struct Wire;
 struct Connection;
 struct Net;
+struct SpecialNet;
 
 // Alias to basic data structures
 using RowPtr          = shared_ptr<Row>;
 using TrackPtr        = shared_ptr<Track>;
+using GCellGridPtr    = shared_ptr<GCellGrid>;
 using ComponentPtr    = shared_ptr<Component>;
 using PinPtr          = shared_ptr<Pin>;
 using ViaPtr          = shared_ptr<Via>;
@@ -41,13 +44,16 @@ using RoutingPointPtr = shared_ptr<RoutingPoint>;
 using WireSegmentPtr  = shared_ptr<WireSegment>;
 using ConnectionPtr   = shared_ptr<Connection>;
 using NetPtr          = shared_ptr<Net>;
+using SpecialNetPtr   = shared_ptr<SpecialNet>;
 
 // Some containers
-using RowVec        = vector<RowPtr>;
-using TrackVec      = vector<TrackPtr>;
-using ComponentUMap = unordered_map<string, ComponentPtr>;
-using PinUMap       = unordered_map<string, PinPtr>;
-using NetUMap       = unordered_map<string, NetPtr>;
+using RowVec          = vector<RowPtr>;
+using TrackVec        = vector<TrackPtr>;
+using GCellGridVec    = vector<GCellGridPtr>;
+using ComponentUMap   = unordered_map<string, ComponentPtr>;
+using PinUMap         = unordered_map<string, PinPtr>;
+using NetUMap         = unordered_map<string, NetPtr>;
+using SpecialNetUMap  = unordered_map<string, SpecialNetPtr>;
 
 ostream& operator<< (ostream& os, const Row&);
 ostream& operator<< (ostream& os, const Track&);
@@ -96,6 +102,17 @@ struct Track
     vector<string> layers_;   ///< If multiple layers defined.
 };
 
+
+/**
+ * A class to represent a gcell grid.
+ */
+struct GCellGrid
+{
+    TrackDir direction_;
+    uint32_t location_;
+    uint32_t num_;
+    uint32_t step_;
+};
 
 /**
  * A class to represent a component.
@@ -218,6 +235,14 @@ struct Net
 
 
 /**
+ * A special net.
+ */
+struct SpecialNet : public Net
+{
+
+};
+
+/**
  * A class to keep the information in a DEF file.
  */
 class Def
@@ -230,9 +255,11 @@ public:
 
     const RowVec& get_rows () const;
     const TrackVec& get_tracks () const;
+    const GCellGridVec& get_gcell_grids () const;
     const ComponentUMap& get_component_umap () const;
     const PinUMap& get_pin_umap () const;
     const NetUMap& get_net_umap () const;
+    const SpecialNetUMap& get_special_net_umap () const;
 
     NetPtr get_net (string name);
     ComponentPtr get_component (string name);
@@ -272,12 +299,15 @@ public:
     static int set_units (defrCallbackType_e, double, defiUserData);
     static int set_die_area (defrCallbackType_e, defiBox*, defiUserData);
     static int set_track (defrCallbackType_e, defiTrack*, defiUserData);
+    static int set_gcell_grid (defrCallbackType_e, defiGcellGrid*, defiUserData);
     static int set_row (defrCallbackType_e, defiRow*, defiUserData);
     static int set_component_start (defrCallbackType_e, int, defiUserData);
     static int set_component (defrCallbackType_e, defiComponent*, defiUserData);
     static int set_pin (defrCallbackType_e, defiPin*, defiUserData);
     static int set_net_start (defrCallbackType_e, int, defiUserData);
     static int set_net (defrCallbackType_e, defiNet*, defiUserData);
+    static int set_special_net_start (defrCallbackType_e, int, defiUserData);
+    static int set_special_net (defrCallbackType_e, defiNet*, defiUserData);
 
 private:
     DefParser () = default;

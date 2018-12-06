@@ -66,6 +66,20 @@ static void write_tracks (def::Def* def)
     CHECK_STATUS(status);
 }
 
+static void write_gcell_grids (def::Def* def)
+{
+    auto& gcell_grids = def->get_gcell_grids();
+
+    for (auto& g : gcell_grids) {
+        string dir_str = g->direction_ == TrackDir::x ? "X" : "Y";
+        auto status = defwGcellGrid(dir_str.c_str(), g->location_, g->num_, g->step_);
+        CHECK_STATUS(status);
+    }
+
+    auto status = defwNewLine();
+    CHECK_STATUS(status);
+}
+
 static void write_components (def::Def* def)
 {
     auto& component_umap = def->get_component_umap();
@@ -129,8 +143,33 @@ static void write_pins (def::Def* def)
 
 static void write_special_nets (def::Def* def)
 {
-    auto status = defwStartSpecialNets(0);
+    auto& special_net_umap = def->get_special_net_umap();
+
+    auto status = defwStartSpecialNets(special_net_umap.size());
     CHECK_STATUS(status);
+
+    for (auto it : special_net_umap) {
+        auto n = it.second;
+        status = defwSpecialNet(n->name_.c_str());
+        CHECK_STATUS(status);
+
+        for (auto con : n->connections_) {
+            if (con->component_ != nullptr) {
+                status = defwSpecialNetConnection(con->component_->name_.c_str(), 
+                                  con->lef_pin_->name_.c_str(), 0);
+            }
+            else if (con->pin_ != nullptr) {
+                status = defwSpecialNetConnection("PIN", con->pin_->name_.c_str(), 0);
+            }
+            else {
+                status = defwSpecialNetConnection("PIN", con->name_.c_str(), 0);
+            }
+            CHECK_STATUS(status);
+        }
+
+        status = defwSpecialNetEndOneNet();
+        CHECK_STATUS(status);
+    }
 
     status = defwEndSpecialNets();
     CHECK_STATUS(status);
@@ -214,6 +253,9 @@ void DefWriter::write_def (def::Def& def)
 
     // Tracks
     write_tracks(def_);
+
+    // GCell grid
+    write_gcell_grids(def_);
 
     // Components
     write_components(def_);

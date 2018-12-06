@@ -1,7 +1,7 @@
-#CXX   = /usr/bin/g++
-#LD    = /usr/bin/g++
-CXX   = /usr/local/bin/g++-8
-LD    = /usr/local/bin/g++-8
+CXX   = g++
+LD    = g++
+#CXX   = /usr/local/bin/g++-8
+#LD    = /usr/local/bin/g++-8
 OBJS_DIR = obj
 
 ifeq ($(DEBUG), 1)
@@ -20,8 +20,8 @@ DEPEND_FILE = $(OBJS_DIR)/depend_file
 
 SRCS      = $(wildcard *.cpp) $(wildcard **/*.cpp) $(wildcard */*/*.cpp)
 OBJS      = $(addprefix $(OBJS_DIR)/, $(notdir $(SRCS:%.cpp=%.o)))
-LDFLAGS   = -L/usr/local/lib -L./lib -L./lib/osx 
-LIBS      = -llef -ldef -lboost_unit_test_framework -lstdc++ -lc++ -lgomp
+LDFLAGS   = -L/usr/local/lib -L./lib/linux -L./lib/osx 
+LIBS      = -llef -ldef -lboost_unit_test_framework -lstdc++ -lgomp
 INCLUDES  = -I./
 INCLUDES += -I./include
 INCLUDES += -I./lefdef

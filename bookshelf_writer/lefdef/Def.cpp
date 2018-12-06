@@ -30,10 +30,12 @@ struct Def::Impl
     string filename_;
     vector<RowPtr> rows_;
     vector<TrackPtr> tracks_;
+    vector<GCellGridPtr> gcell_grids_;
 
     unordered_map<string, PinPtr> pin_umap_;
     unordered_map<string, ComponentPtr> component_umap_;
     unordered_map<string, NetPtr> net_umap_;
+    unordered_map<string, SpecialNetPtr> special_net_umap_;
 };
 
 
@@ -70,6 +72,11 @@ const vector<TrackPtr>& Def::get_tracks () const
     return pimpl_->tracks_;
 }
 
+const vector<GCellGridPtr>& Def::get_gcell_grids () const
+{
+    return pimpl_->gcell_grids_;
+}
+
 const ComponentUMap& Def::get_component_umap () const
 {
     return pimpl_->component_umap_;
@@ -78,6 +85,11 @@ const ComponentUMap& Def::get_component_umap () const
 const NetUMap& Def::get_net_umap () const
 {
     return pimpl_->net_umap_;
+}
+
+const SpecialNetUMap& Def::get_special_net_umap () const
+{
+    return pimpl_->special_net_umap_;
 }
 
 const PinUMap& Def::get_pin_umap () const
@@ -148,6 +160,7 @@ void Def::read_def (string filename)
     defrSetDieAreaCbk(DefParser::set_die_area);
 
     defrSetTrackCbk(DefParser::set_track);
+    defrSetGcellGridCbk(DefParser::set_gcell_grid);
     defrSetRowCbk(DefParser::set_row);
 
     defrSetComponentStartCbk(DefParser::set_component_start);
@@ -155,11 +168,16 @@ void Def::read_def (string filename)
 
     defrSetPinCbk(DefParser::set_pin);
 
+    cout << "SPECIAL NETS..." << endl;
+    defrSetSNetStartCbk(DefParser::set_special_net_start);
+    defrSetSNetCbk(DefParser::set_special_net);
+    cout << "SPECIAL NETS..." << endl;
+
 	defrSetNetStartCbk(DefParser::set_net_start);
 	defrSetNetCbk(DefParser::set_net);
 
     // TODO
-    // track, group, region, net, via
+    // group, region, net, via
 
 
     // Read the DEF file.
@@ -272,6 +290,28 @@ int DefParser::set_track (defrCallbackType_e, defiTrack* track, defiUserData ud)
     }
 
     return 0;
+}
+
+
+int DefParser::set_gcell_grid (defrCallbackType_e, defiGcellGrid* gcell_grid, defiUserData ud)
+{
+    auto def = static_cast<Def*>(ud); 
+    auto& gcell_grids = def->pimpl_->gcell_grids_;
+
+    gcell_grids.emplace_back(make_shared<GCellGrid>());
+    auto& the_grid = gcell_grids.back();
+
+    string direction = gcell_grid->macro();
+    if (direction == "X" || direction == "x") {
+        the_grid->direction_ = TrackDir::x;
+    }
+    else {
+        the_grid->direction_ = TrackDir::y;
+    }
+
+    the_grid->location_ = static_cast<uint32_t>(gcell_grid->x());
+    the_grid->num_ = static_cast<uint32_t>(gcell_grid->xNum());
+    the_grid->step_= static_cast<uint32_t>(gcell_grid->xStep());
 }
 
 //
@@ -454,13 +494,8 @@ static void process_routed_net (NetPtr the_net, defiNet* net)
     }
 }
 
-int DefParser::set_net (defrCallbackType_e, defiNet* net, defiUserData ud)
+static NetPtr create_net (Def* def, int dbu, defiNet* net)
 {
-    auto def = static_cast<Def*>(ud); 
-    auto dbu = def->pimpl_->dbu_;
-
-    auto& net_umap = def->pimpl_->net_umap_;
-
     auto the_net = make_shared<Net>();
 
     the_net->name_ = net->name();
@@ -481,10 +516,12 @@ int DefParser::set_net (defrCallbackType_e, defiNet* net, defiUserData ud)
         if (comp == nullptr) {
             auto pin = def->get_pin(pin_name); 
 
-            lx = pin->lx_;
-            ly = pin->ly_;
-            ux = pin->ux_;
-            uy = pin->uy_;
+            if (pin) {
+                lx = pin->lx_;
+                ly = pin->ly_;
+                ux = pin->ux_;
+                uy = pin->uy_;
+            }
 
             c = make_shared<Connection>(pin_name, pin, lx, ly, ux, uy);
         }
@@ -507,10 +544,47 @@ int DefParser::set_net (defrCallbackType_e, defiNet* net, defiUserData ud)
         process_routed_net(the_net, net);
     }
 
+    return the_net;
+}
+
+int DefParser::set_net (defrCallbackType_e, defiNet* net, defiUserData ud)
+{
+    auto def = static_cast<Def*>(ud); 
+    auto dbu = def->pimpl_->dbu_;
+
+    auto the_net = create_net(def, dbu, net);
+
+    auto& net_umap = def->pimpl_->net_umap_;
     net_umap[the_net->name_] = the_net;
 
     return 0;
 }
+
+int DefParser::set_special_net_start (defrCallbackType_e, int num_nets, 
+                                      defiUserData ud)
+{
+    auto def = static_cast<Def*>(ud); 
+    auto& special_net_umap = def->pimpl_->special_net_umap_;
+    special_net_umap.reserve(num_nets);
+
+    return 0;
+}
+
+int DefParser::set_special_net (defrCallbackType_e, defiNet* net, defiUserData ud)
+{
+    auto def = static_cast<Def*>(ud); 
+    auto dbu = def->pimpl_->dbu_;
+
+    auto the_net = create_net(def, dbu, net);
+    cout << the_net->name_ << endl;
+
+    auto& special_net_umap = def->pimpl_->special_net_umap_;
+    special_net_umap[the_net->name_] = static_pointer_cast<SpecialNet>(the_net);
+
+    return 0;
+}
+
+
 
 
 ostream& operator<< (ostream& os, const Row& r)
