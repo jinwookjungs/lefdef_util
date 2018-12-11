@@ -55,6 +55,11 @@ void LefDefParser::read_def (string filename)
  */
 void LefDefParser::write_bookshelf (string filename) const
 {
+    cout << "Writing bookshelf aux file." << endl;
+    ofstream ofs(filename + ".aux");
+    ofs << "RowBasedPlacement : temp.nodes temp.nets temp.wts temp.pl temp.scl temp.shapes" << endl;
+    ofs.close();
+
     cout << "Writing bookshelf nodes file." << endl;
     write_bookshelf_nodes (filename + ".nodes");
 
