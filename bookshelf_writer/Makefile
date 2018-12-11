@@ -1,7 +1,5 @@
 CXX   = g++
 LD    = g++
-#CXX   = /usr/local/bin/g++-8
-#LD    = /usr/local/bin/g++-8
 OBJS_DIR = obj
 
 ifeq ($(DEBUG), 1)
@@ -15,14 +13,14 @@ CXXFLAGS = -O3 -std=c++11
 TARGET = bookshelf_writer
 endif
 
-CXXFLAGS += -fopenmp
+CXXFLAGS += 
 DEPEND_FILE = $(OBJS_DIR)/depend_file
 
 SRCS      = $(wildcard *.cpp) $(wildcard **/*.cpp) $(wildcard */*/*.cpp)
 OBJS      = $(addprefix $(OBJS_DIR)/, $(notdir $(SRCS:%.cpp=%.o)))
-LDFLAGS   = -L/usr/local/lib -L./lib/linux -L./lib/osx 
-#LIBS      = -llef -ldef -lboost_unit_test_framework -lstdc++ -lc++ -lgomp
-LIBS      = -llef -ldef -lboost_unit_test_framework -lstdc++ -lgomp
+#LDFLAGS   = -L/usr/local/lib -L./lib/linux
+LDFLAGS   = -L/usr/local/lib -L./lib/osx 
+LIBS      = -llef -ldef -lstdc++
 INCLUDES  = -I./
 INCLUDES += -I./include
 INCLUDES += -I./lefdef

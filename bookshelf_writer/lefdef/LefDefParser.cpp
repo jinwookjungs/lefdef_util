@@ -306,8 +306,8 @@ void LefDefParser::write_bookshelf_pl (string filename) const
 
         if (c->is_placed_) {
             ofs << "\t" << c->x_ / x_pitch_dbu 
-		<< "\t" << c->y_ / y_pitch_dbu 
-		<< "\t: " << c->orient_str_ << endl;
+                << "\t" << c->y_ / y_pitch_dbu 
+                << "\t: " << c->orient_str_ << endl;
         }
         else {
             ofs << "\t" << 0 << "\t" << 0 << "\t: N" << endl;
@@ -375,6 +375,8 @@ void LefDefParser::update_def (string bookshelf_pl)
 //                             << " -> (" << x_new << ", " << y_new << ")" << endl;
             it.second->x_ = x_new; 
             it.second->y_ = y_new; 
+
+            it.second->is_placed_ = true;
         }
     }
 }

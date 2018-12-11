@@ -77,12 +77,12 @@ struct Row
     string orient_str_;    
     int orient_;
 
-    uint32_t x_;            ///< x coordinate at the origin.
-    uint32_t y_;            ///< y coordinate at the origin.
-    uint32_t num_x_;             ///< Number of sites in x-direction.
-    uint32_t num_y_;             ///< Number of sites in y-direction.
-    uint32_t step_x_;
-    uint32_t step_y_;
+    int x_;            ///< x coordinate at the origin.
+    int y_;            ///< y coordinate at the origin.
+    int num_x_;        ///< Number of sites in x-direction.
+    int num_y_;        ///< Number of sites in y-direction.
+    int step_x_;
+    int step_y_;
 };
 
 
@@ -92,10 +92,10 @@ struct Row
 struct Track
 {
     TrackDir direction_;
-    uint32_t location_;
-    uint32_t num_tracks_;
-    uint32_t step_;
-    uint32_t len_;          // Length of the track = step * num_tracks
+    int location_;
+    int num_tracks_;
+    int step_;
+    int len_;          // Length of the track = step * num_tracks
     int num_layers_;
 
     string layer_;            ///< The first layer
@@ -109,9 +109,9 @@ struct Track
 struct GCellGrid
 {
     TrackDir direction_;
-    uint32_t location_;
-    uint32_t num_;
-    uint32_t step_;
+    int location_;
+    int num_;
+    int step_;
 };
 
 /**
@@ -123,8 +123,8 @@ struct Component
     string ref_name_;
     bool is_fixed_;
     bool is_placed_;
-    uint32_t x_;
-    uint32_t y_;
+    int x_;
+    int y_;
     string orient_str_;
     int orient_;
 
@@ -142,15 +142,15 @@ struct Pin
     string layer_;
     PinDir dir_;
 
-    uint32_t x_;
-    uint32_t y_;
+    int x_;
+    int y_;
     string orient_str_;
     int orient_;
 
-    uint32_t lx_;
-    uint32_t ly_;
-    uint32_t ux_;
-    uint32_t uy_;
+    int lx_;
+    int ly_;
+    int ux_;
+    int uy_;
 };
 
 
@@ -159,9 +159,9 @@ struct Pin
  */
 struct RoutingPoint
 {
-    uint32_t x_;
-    uint32_t y_;
-    uint32_t ext_;
+    int x_;
+    int y_;
+    int ext_;
     bool has_via_;
 
     RoutingPoint (int x, int y, int ext) : x_(x), y_(y), ext_(ext) {}
@@ -205,18 +205,18 @@ struct Connection
     lef::PinPtr lef_pin_;
     PinPtr pin_;
 
-    uint32_t lx_;
-    uint32_t ly_;
-    uint32_t ux_;
-    uint32_t uy_;
+    int lx_;
+    int ly_;
+    int ux_;
+    int uy_;
 
     Connection (string name, ComponentPtr component, lef::PinPtr lef_pin,
-                uint32_t lx, uint32_t ly, uint32_t ux, uint32_t uy)
+                int lx, int ly, int ux, int uy)
         : name_(name), component_(component), lef_pin_(lef_pin), pin_(nullptr),
           lx_(lx), ly_(ly), ux_(ux), uy_(uy) {}
 
     Connection (string name, PinPtr pin, 
-                uint32_t lx, uint32_t ly, uint32_t ux, uint32_t uy)
+                int lx, int ly, int ux, int uy)
         : name_(name), component_(nullptr), lef_pin_(nullptr), pin_(pin),
           lx_(lx), ly_(ly), ux_(ux), uy_(uy) {}
 };
@@ -269,10 +269,10 @@ public:
     void report () const;
     void report_verbose () const;
 
-    uint32_t get_die_lx () const;
-    uint32_t get_die_ly () const;
-    uint32_t get_die_ux () const;
-    uint32_t get_die_uy () const;
+    int get_die_lx () const;
+    int get_die_ly () const;
+    int get_die_ux () const;
+    int get_die_uy () const;
 
 private:
     struct Impl;

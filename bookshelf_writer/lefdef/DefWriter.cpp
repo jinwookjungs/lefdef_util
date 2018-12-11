@@ -167,6 +167,11 @@ static void write_special_nets (def::Def* def)
             CHECK_STATUS(status);
         }
 
+        if (n->wires_.empty() == false) {
+//            status = defwSpecialNetPathStart("ROUTED");
+//            status = defwSpecialNetPathEnd();
+        }
+
         status = defwSpecialNetEndOneNet();
         CHECK_STATUS(status);
     }

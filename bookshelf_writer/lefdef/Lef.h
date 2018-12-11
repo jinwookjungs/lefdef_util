@@ -213,11 +213,11 @@ public:
     LayerPtr get_layer (string name);
     MacroPtr get_macro (string name);
 
-    uint32_t get_dbu () const;
+    int get_dbu () const;
     double get_min_x_pitch () const;
     double get_min_y_pitch () const;
-    uint32_t get_min_x_pitch_dbu () const;
-    uint32_t get_min_y_pitch_dbu () const;
+    int get_min_x_pitch_dbu () const;
+    int get_min_y_pitch_dbu () const;
 
 private:
     struct Impl;

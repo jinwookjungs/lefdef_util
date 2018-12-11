@@ -22,10 +22,10 @@ struct Def::Impl
     string design_name_;       ///< The design name.
     int dbu_;                       ///< Database unit microns.
 
-    uint32_t die_lx_;               ///< Die lower bound.
-    uint32_t die_ly_;               ///< Die lower bound.
-    uint32_t die_ux_;               ///< Die upper bound.
-    uint32_t die_uy_;               ///< Die upper bound.
+    int die_lx_;               ///< Die lower bound.
+    int die_ly_;               ///< Die lower bound.
+    int die_ux_;               ///< Die upper bound.
+    int die_uy_;               ///< Die upper bound.
 
     string filename_;
     vector<RowPtr> rows_;
@@ -278,9 +278,9 @@ int DefParser::set_track (defrCallbackType_e, defiTrack* track, defiUserData ud)
     else {
         the_track->direction_ = TrackDir::y;
     }
-    the_track->location_ = static_cast<uint32_t>(track->x());
-    the_track->num_tracks_ = static_cast<uint32_t>(track->xNum());
-    the_track->step_ = static_cast<uint32_t>(track->xStep());
+    the_track->location_ = static_cast<int>(track->x());
+    the_track->num_tracks_ = static_cast<int>(track->xNum());
+    the_track->step_ = static_cast<int>(track->xStep());
     the_track->num_layers_ = static_cast<int>(track->numLayers());
     the_track->len_ = the_track->step_ * the_track->num_tracks_;
 
@@ -309,9 +309,11 @@ int DefParser::set_gcell_grid (defrCallbackType_e, defiGcellGrid* gcell_grid, de
         the_grid->direction_ = TrackDir::y;
     }
 
-    the_grid->location_ = static_cast<uint32_t>(gcell_grid->x());
-    the_grid->num_ = static_cast<uint32_t>(gcell_grid->xNum());
-    the_grid->step_= static_cast<uint32_t>(gcell_grid->xStep());
+    the_grid->location_ = static_cast<int>(gcell_grid->x());
+    the_grid->num_ = static_cast<int>(gcell_grid->xNum());
+    the_grid->step_= static_cast<int>(gcell_grid->xStep());
+
+    return 0;
 }
 
 //
@@ -331,18 +333,18 @@ int DefParser::set_row (defrCallbackType_e, defiRow* row, defiUserData ud)
     the_row->orient_str_ = row->orientStr();
     the_row->orient_ = row->orient();
 
-    the_row->x_ = static_cast<uint32_t>(row->x());
-    the_row->y_ = static_cast<uint32_t>(row->y());
+    the_row->x_ = static_cast<int>(row->x());
+    the_row->y_ = static_cast<int>(row->y());
 
     if (row->hasDoStep()) {
-        the_row->num_x_  = static_cast<uint32_t>(row->xNum());
-        the_row->num_y_  = static_cast<uint32_t>(row->yNum());
-        the_row->step_x_ = static_cast<uint32_t>(row->xStep());
-        the_row->step_y_ = static_cast<uint32_t>(row->yStep());
+        the_row->num_x_  = static_cast<int>(row->xNum());
+        the_row->num_y_  = static_cast<int>(row->yNum());
+        the_row->step_x_ = static_cast<int>(row->xStep());
+        the_row->step_y_ = static_cast<int>(row->yStep());
     }
     else if (row->hasDo()) {
-        the_row->num_x_  = static_cast<uint32_t>(row->xNum());
-        the_row->num_y_  = static_cast<uint32_t>(row->yNum());
+        the_row->num_x_  = static_cast<int>(row->xNum());
+        the_row->num_y_  = static_cast<int>(row->yNum());
         the_row->step_x_ = 0;
         the_row->step_y_ = 0;
     }
@@ -445,6 +447,7 @@ int DefParser::set_net_start (defrCallbackType_e, int num_nets,
 
 static void process_routed_net (NetPtr the_net, defiNet* net)
 {
+    cout << "Processing routed net..." << endl;
     the_net->wires_.reserve(net->numWires());
 
     for (int i = 0; i < net->numWires(); i++) {
@@ -508,7 +511,7 @@ static NetPtr create_net (Def* def, int dbu, defiNet* net)
 
         // Get the owner component
         auto comp = def->get_component(inst_name);
-        uint32_t lx, ly, ux, uy;
+        int lx, ly, ux, uy;
 
         lef::PinPtr lef_pin = nullptr;
         ConnectionPtr c = nullptr;
@@ -529,10 +532,10 @@ static NetPtr create_net (Def* def, int dbu, defiNet* net)
             auto lef_macro = comp->lef_macro_;
             lef_pin = lef_macro->pin_umap_[pin_name];
 
-            lx = comp->x_ + static_cast<uint32_t>(lef_pin->bbox_.lx_ * dbu);
-            ly = comp->y_ + static_cast<uint32_t>(lef_pin->bbox_.ly_ * dbu);
-            ux = comp->x_ + static_cast<uint32_t>(lef_pin->bbox_.ux_ * dbu);
-            uy = comp->y_ + static_cast<uint32_t>(lef_pin->bbox_.uy_ * dbu);
+            lx = comp->x_ + static_cast<int>(lef_pin->bbox_.lx_ * dbu);
+            ly = comp->y_ + static_cast<int>(lef_pin->bbox_.ly_ * dbu);
+            ux = comp->x_ + static_cast<int>(lef_pin->bbox_.ux_ * dbu);
+            uy = comp->y_ + static_cast<int>(lef_pin->bbox_.uy_ * dbu);
 
             c = make_shared<Connection>(pin_name, comp, lef_pin, lx, ly, ux, uy);
         }
@@ -540,7 +543,7 @@ static NetPtr create_net (Def* def, int dbu, defiNet* net)
         connections.emplace_back(c);
     }
 
-    if (net->isRouted()) {
+    if (net->numWires() > 0) {
         process_routed_net(the_net, net);
     }
 
@@ -706,19 +709,19 @@ ostream& operator<< (ostream& os, const Net& n)
     return os;
 }
 
-uint32_t Def::get_die_lx () const
+int Def::get_die_lx () const
 {
     return pimpl_->die_lx_;
 }
-uint32_t Def::get_die_ly () const
+int Def::get_die_ly () const
 {
     return pimpl_->die_ly_;
 }
-uint32_t Def::get_die_ux () const
+int Def::get_die_ux () const
 {
     return pimpl_->die_ux_;
 }
-uint32_t Def::get_die_uy () const
+int Def::get_die_uy () const
 {
     return pimpl_->die_uy_;
 }

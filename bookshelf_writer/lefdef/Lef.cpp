@@ -42,8 +42,8 @@ struct Lef::Impl
 
     double min_x_pitch_ = 987654321.0;
     double min_y_pitch_ = 987654321.0;
-    uint32_t min_x_pitch_dbu_ = 987654321;
-    uint32_t min_y_pitch_dbu_ = 987654321;
+    int    min_x_pitch_dbu_ = 987654321;
+    int    min_y_pitch_dbu_ = 987654321;
 };
 
 /* Constructors and destructor. */
@@ -195,7 +195,7 @@ MacroPtr Lef::get_macro (string name)
     }
 }
 
-uint32_t Lef::get_dbu () const
+int Lef::get_dbu () const
 {
     return pimpl_->unit_.db_number_;
 }
@@ -210,12 +210,12 @@ double Lef::get_min_y_pitch () const
     return pimpl_->min_y_pitch_;
 }
 
-uint32_t Lef::get_min_x_pitch_dbu () const
+int Lef::get_min_x_pitch_dbu () const
 {
     return pimpl_->min_x_pitch_dbu_;
 }
 
-uint32_t Lef::get_min_y_pitch_dbu () const
+int Lef::get_min_y_pitch_dbu () const
 {
     return pimpl_->min_y_pitch_dbu_;
 }
