@@ -64,19 +64,19 @@ Lef& Lef::get_instance ()
 void Lef::read_lef (string filename)
 {
     // The typical way to create a unique_ptr for a FILE* pointer
-	auto fp = unique_ptr<FILE, decltype(&fclose)>(
+    auto fp = unique_ptr<FILE, decltype(&fclose)>(
                   fopen(filename.c_str(), "r"), &fclose);
 
-	if (fp == nullptr) {
-		throw invalid_argument("(E) LEF (" + filename + ") not found.");
-	}
+    if (fp == nullptr) {
+        throw invalid_argument("(E) LEF (" + filename + ") not found.");
+    }
 
     pimpl_->filename_ = filename;
 
-	lefrInit();
+    lefrInit();
 
     // Set the call-back functions.
-	lefrSetUnitsCbk (LefParser::set_units);
+    lefrSetUnitsCbk (LefParser::set_units);
     lefrSetSiteCbk  (LefParser::set_site);
 
     stable_sort(pimpl_->sites_.begin(), pimpl_->sites_.end(),
@@ -86,7 +86,7 @@ void Lef::read_lef (string filename)
 
     lefrSetLayerCbk (LefParser::set_layer);
     lefrSetViaCbk   (LefParser::set_via);
-	lefrSetObstructionCbk (LefParser::set_obstruction); 
+    lefrSetObstructionCbk (LefParser::set_obstruction); 
 
     lefrSetMacroBeginCbk (LefParser::set_macro_begin);
     lefrSetMacroEndCbk   (LefParser::set_macro_end);
@@ -113,6 +113,10 @@ void Lef::read_lef (string filename)
     }
 
     const auto DBU = pimpl_->unit_.db_number_;
+    cout << "min_x_pitch: " << pimpl_->min_x_pitch_ << endl;
+    cout << "min_y_pitch: " << pimpl_->min_y_pitch_ << endl;
+    cout << "DBU: " << DBU << endl;
+    pimpl_->min_x_pitch_dbu_ = pimpl_->min_x_pitch_ * DBU;
     pimpl_->min_x_pitch_dbu_ = pimpl_->min_x_pitch_ * DBU;
     pimpl_->min_y_pitch_dbu_ = pimpl_->min_y_pitch_ * DBU;
 
@@ -223,11 +227,11 @@ int LefParser::set_units (lefrCallbackType_e, lefiUnits* units,
 {
     auto lef = static_cast<Lef*>(ud);
 
-	if (units->hasDatabase()) {
+    if (units->hasDatabase()) {
         auto& unit = lef->pimpl_->unit_;
         unit.db_name_ = units->databaseName();
-		unit.db_number_ = (int) units->databaseNumber();
-	}
+        unit.db_number_ = (int) units->databaseNumber();
+    }
 
     return 0;
 }
@@ -331,12 +335,14 @@ int LefParser::set_layer (lefrCallbackType_e, lefiLayer* layer,
     }
 
     // Minimum pitch
-    if (layer->hasPitch()) {
-        l->pitch_ = layer->pitch();
-    }
     if (layer->hasXYPitch()) {
         l->pitch_x_ = layer->pitchX();
         l->pitch_y_ = layer->pitchY();
+    }
+    else if (layer->hasPitch()) {
+        l->pitch_ = layer->pitch();
+        l->pitch_x_ = layer->pitch();
+        l->pitch_y_ = layer->pitch();
     }
 
     // Assign to the layer map.
@@ -378,7 +384,7 @@ int LefParser::set_obstruction (lefrCallbackType_e, lefiObstruction* obs,
 {
     auto lef = static_cast<Lef*>(ud);
 
-	auto geometries = obs->lefiObstruction::geometries();
+    auto geometries = obs->lefiObstruction::geometries();
     auto num_items = geometries->numItems();
 
     // TODO
@@ -492,7 +498,7 @@ int LefParser::set_pin (lefrCallbackType_e, lefiPin* pin, lefiUserData ud)
                 cur_port->rects_.emplace_back(rect->xl, rect->yl, 
                                               rect->xh, rect->yh);
             }
-			else if (port->itemType(j) == lefiGeomPolygonE) {
+            else if (port->itemType(j) == lefiGeomPolygonE) {
                 throw logic_error("(E) LEF port is of polygon geometry.");
             }
         }

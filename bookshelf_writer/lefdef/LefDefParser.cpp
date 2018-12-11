@@ -303,9 +303,15 @@ void LefDefParser::write_bookshelf_pl (string filename) const
     for (auto it : component_umap) {
         auto c = it.second;
         ofs << std::setw(40) << std::left << c->name_;
-        ofs << "\t" << c->x_ / x_pitch_dbu 
-               << "\t" << c->y_ / y_pitch_dbu 
-               << "\t: " << c->orient_str_ << endl;
+
+        if (c->is_placed_) {
+            ofs << "\t" << c->x_ / x_pitch_dbu 
+		<< "\t" << c->y_ / y_pitch_dbu 
+		<< "\t: " << c->orient_str_ << endl;
+        }
+        else {
+            ofs << "\t" << 0 << "\t" << 0 << "\t: N" << endl;
+        }
     }
 
     for (auto& it : pin_umap) {
