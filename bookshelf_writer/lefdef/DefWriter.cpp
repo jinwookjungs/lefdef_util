@@ -98,6 +98,10 @@ static void write_components (def::Def* def)
             status_str = "PLACED";
         }
 
+        if (c->orient_str_ == "") {
+            c->orient_str_ = "N";
+        }
+
         status = defwComponentStr(
                     c->name_.c_str(), c->ref_name_.c_str(), 
                     0, NULL, NULL, NULL, NULL, NULL,    // Optionals
