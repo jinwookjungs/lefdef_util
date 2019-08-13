@@ -16,16 +16,16 @@ endif
 CXXFLAGS += 
 DEPEND_FILE = $(OBJS_DIR)/depend_file
 
-SRCS      = $(wildcard *.cpp) $(wildcard **/*.cpp) $(wildcard */*/*.cpp)
+SRCS      = $(wildcard *.cpp) $(wildcard **/*.cpp) $(wildcard ../src/*/*.cpp) $(wildcard ../src/*.cpp)
 OBJS      = $(addprefix $(OBJS_DIR)/, $(notdir $(SRCS:%.cpp=%.o)))
-#LDFLAGS   = -L/usr/local/lib -L./lib/linux
-LDFLAGS   = -L/usr/local/lib -L./lib/osx 
+LDFLAGS   = -L/usr/local/lib -L../lib/linux
+#LDFLAGS   = -L/usr/local/lib -L../lib/osx 
 LIBS      = -llef -ldef -lstdc++
-INCLUDES  = -I./
-INCLUDES += -I./include
-INCLUDES += -I./lefdef
-INCLUDES += -I./util
-INCLUDES += -I./common
+INCLUDES  = -I../src/
+INCLUDES += -I../src/include
+INCLUDES += -I../src/lefdef
+INCLUDES += -I../src/util
+INCLUDES += -I../src/common
 INCLUDES += -I/usr/local/include
 
 .SUFFIXES : .cpp .o
