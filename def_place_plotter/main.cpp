@@ -18,7 +18,6 @@ using namespace std;
 void show_usage ();
 void show_banner ();
 void show_cmd_args ();
-int omp_thread_count();
 
 /**
  * Main.
