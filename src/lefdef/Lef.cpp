@@ -108,7 +108,7 @@ void Lef::read_lef (string filename)
         }
         else if (l->dir_ == LayerDir::vertical) {
             pimpl_->min_x_pitch_ = (l->pitch_x_ < pimpl_->min_x_pitch_) 
-                                      ? l->pitch_x_ : pimpl_->min_x_pitch_;
+                                    ? l->pitch_x_ : pimpl_->min_x_pitch_;
         }
     }
 
