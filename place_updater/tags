@@ -1,4 +1,12 @@
-Mmain.cpp	./main.cpp	/^int main (int argc, char* argv[])$/
-omp_thread_count	./main.cpp	/^int omp_thread_count() {$/
-show_cmd_args	./main.cpp	/^void show_cmd_args ()$/
-show_usage	./main.cpp	/^void show_usage ()$/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_TEST_DYN_LINK	./main.cpp	89;"	d	file:
+BOOST_TEST_MODULE	./main.cpp	90;"	d	file:
+main	./main.cpp	/^int main (int argc, char* argv[])$/;"	f
+omp_thread_count	./main.cpp	/^int omp_thread_count() {$/;"	f
+show_cmd_args	./main.cpp	/^void show_cmd_args ()$/;"	f
+show_usage	./main.cpp	/^void show_usage ()$/;"	f
