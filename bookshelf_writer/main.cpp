@@ -33,13 +33,18 @@ int main (int argc, char* argv[])
     auto& ap = ArgParser::get();
 
     ap.initialize(argc, argv);
-    auto filename_lef = ap.get_argument("-lef");
-    auto filename_def = ap.get_argument("-def");
+    auto filename_lef = ap.get_argument("--lef");
+    auto filename_def = ap.get_argument("--def");
+    auto filename_bookshelf = ap.get_argument("--bookshelf");
 
     if (filename_lef == "" or filename_def == "") {
         show_usage();
         return -1;
     }
+    if (filename_bookshelf == "") {
+        filename_bookshelf = "out";
+    }
+
 
     show_banner();
     show_cmd_args();
@@ -49,7 +54,7 @@ int main (int argc, char* argv[])
     ldp.read_lef(filename_lef);
     ldp.read_def(filename_def);
 
-    ldp.write_bookshelf("temp");
+    ldp.write_bookshelf(filename_bookshelf);
 
     cout << endl << "Done." << endl;
 
@@ -60,7 +65,7 @@ void show_usage ()
 {
     cout << endl;
     cout << "Usage:" << endl;
-    cout << "lefdef_parser -lef <lef> -def <def>" << endl << endl;
+    cout << "bookshelf_writer --lef <lef> --def <def> [--bookshelf <bookshelf>]" << endl << endl;
 }
 
 /**
@@ -80,8 +85,9 @@ void show_banner ()
 void show_cmd_args ()
 {
     auto& ap = ArgParser::get();
-    auto filename_lef = ap.get_argument("-lef");
-    auto filename_def = ap.get_argument("-def");
+    auto filename_lef = ap.get_argument("--lef");
+    auto filename_def = ap.get_argument("--def");
+    auto filename_bookshelf = ap.get_argument("--bookshelf");
     cout << "  LEF file   : " << filename_lef << endl;
     cout << "  DEF file   : " << filename_def << endl;
 }

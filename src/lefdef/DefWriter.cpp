@@ -216,11 +216,11 @@ static void write_nets (def::Def* def)
     CHECK_STATUS(status);
 }
 
-void DefWriter::write_def (def::Def& def)
+void DefWriter::write_def (def::Def& def, string filename)
 {
     def_ = &def;
 
-    FILE* fout = fopen("test.out.def", "w");
+    FILE* fout = fopen(filename.c_str(), "w");
     if (fout == nullptr) {
         fprintf(stderr, "ERROR: could not open output file\n");
         return;
