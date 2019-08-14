@@ -1,7 +1,7 @@
 /**
  * @file    main.cpp
  * @author  Jinwook Jung (jinwookjung@kaist.ac.kr)
- * @date    2017-12-23 22:12:10
+ * @date    2019-08-13 23:31:44
  *
  * Created on Sat Dec 23 22:12:10 2017.
  */
@@ -34,13 +34,18 @@ int main (int argc, char* argv[])
     auto& ap = ArgParser::get();
 
     ap.initialize(argc, argv);
-    auto filename_lef = ap.get_argument("-lef");
-    auto filename_def = ap.get_argument("-def");
-    auto filename_pl = ap.get_argument("-pl");
+    auto filename_lef = ap.get_argument("--lef");
+    auto filename_def = ap.get_argument("--def");
+    auto filename_pl = ap.get_argument("--pl");
+    auto filename_out_def = ap.get_argument("--out-def");
 
     if (filename_lef == "" or filename_def == "" or filename_pl == "") {
         show_usage();
         return -1;
+    }
+
+    if (filename_out_def == "") {
+        filename_out_def = "out.def";
     }
 
     show_cmd_args();
@@ -52,7 +57,7 @@ int main (int argc, char* argv[])
     ldp.update_def(filename_pl);
 
     auto& dw = my_lefdef::DefWriter::get_instance();
-    dw.write_def(ldp.get_def());
+    dw.write_def(ldp.get_def(), filename_out_def);
 
     cout << endl << "Done." << endl;
 
@@ -63,18 +68,20 @@ void show_usage ()
 {
     cout << endl;
     cout << "Usage:" << endl;
-    cout << "place_updater -lef <lef> -def <def> -pl <bookshelf_pl>" << endl << endl;
+    cout << "place_updater --lef <lef> --def <def> --pl <bookshelf_pl> --out-def <out_def>" << endl << endl;
 }
 
 void show_cmd_args ()
 {
     auto& ap = ArgParser::get();
-    auto filename_lef = ap.get_argument("-lef");
-    auto filename_def = ap.get_argument("-def");
-    auto filename_pl = ap.get_argument("-pl");
+    auto filename_lef = ap.get_argument("--lef");
+    auto filename_def = ap.get_argument("--def");
+    auto filename_pl = ap.get_argument("--pl");
+    auto filename_out_def = ap.get_argument("--out-def");
     cout << "LEF           : " << filename_lef << endl;
     cout << "DEF           : " << filename_def << endl;
     cout << "Bookshelf .pl : " << filename_pl << endl;
+    cout << "Output DEF    : " << filename_out_def << endl;
 }
 
 int omp_thread_count() {

@@ -22,7 +22,7 @@ class DefWriter
 public:
     static DefWriter& get_instance ();
 
-    void write_def (def::Def& def);
+    void write_def (def::Def& def, string filename);
 
 private:
     def::Def* def_;
