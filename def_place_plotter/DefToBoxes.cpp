@@ -94,10 +94,10 @@ void DefToBoxes::write_boxes (string filename) const
 
         ofs << std::setw(15) << std::left << "terminal";
         ofs << std::setw(15) << std::left << p.first;
-        ofs << "\t" << std::setw(12) << std::right << x;
-        ofs << "\t" << std::setw(12) << std::right << y;
-        ofs << "\t" << std::setw(12) << std::right << 1;
-        ofs << "\t" << std::setw(12) << std::right << 1 << endl;
+        ofs << " \t" << std::setw(12) << std::right << x;
+        ofs << " \t" << std::setw(12) << std::right << y;
+        ofs << " \t" << std::setw(12) << std::right << 1;
+        ofs << " \t" << std::setw(12) << std::right << 1 << endl;
     }
 
     for (auto c : component_umap) {
@@ -111,13 +111,13 @@ void DefToBoxes::write_boxes (string filename) const
 
         ofs << std::setw(15) << std::left << macro->name_;
         ofs << std::setw(15) << std::left << c.first;
-        ofs << "\t" << std::setw(12) << std::right << x;
-        ofs << "\t" << std::setw(12) << std::right << y;
-        ofs << "\t" << std::setw(12) << std::right << w;
-        ofs << "\t" << std::setw(12) << std::right << h;
+        ofs << " \t" << std::setw(12) << std::right << x;
+        ofs << " \t" << std::setw(12) << std::right << y;
+        ofs << " \t" << std::setw(12) << std::right << w;
+        ofs << " \t" << std::setw(12) << std::right << h;
         
         if (c.second->is_fixed_) {
-            ofs << "\t" << "terminal";
+            ofs << " \t" << "terminal";
         }
         ofs << endl;
     }
